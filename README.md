@@ -1,37 +1,70 @@
-## Welcome to GitHub Pages
+<!DOCTYPEhtml>
+<html>
+<head>
+	<title>Sharma Food Products</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-You can use the [editor on GitHub](https://github.com/sharmafoodproducts/sharmafoodproduct.com/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<h1>Welcome to Sharma Food Products</h1>
 
-### Markdown
+	<a href ="logo.jpg" > <img src="logo.jpg" hight="300" width="150"></a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<h2> About Sharma Food Products </h2>
 
-```markdown
-Syntax highlighted code block
+<p><strong>Sharma Food Product</strong> has servicing in Food Field by producing the best <u>Quality Namkin(Dalmot)</u> from many years in Nepal. We are producing the Namkin(Dalmot) by using the best Qualities of Machine and <u>Qualities raw materials</u>. We manufactures Mix Namkin,Potato Chips & Different items of Namkin. Our Products has been servicing in <i>Banke & Bardiya</i> till now. We will Increasing it in all over Nepal. You can contact me below.
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+<div class="container">
 
-**Bold** and _Italic_ and `Code` text
+<div style="text-align: center;">
 
-[Link](url) and ![Image](src)
-```
+	<h3>Contact Me</h3>
+	<p>For Odering Namkin you can contact me.</p>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</div>
+	
+<form action="index.php">
+	<label for="Full Name"><b> Full Name</b></label>
+	<input type="text" name="Full Name" id=Full Name>
 
-### Jekyll Themes
+	<label for="District"><b> District </b></label>
+	<select id="District">
+		<option>Banke</option>	
+	</select>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sharmafoodproducts/sharmafoodproduct.com/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<label for="Area"><b> Area</b></label>
+	<select id="Area">
+		<option>Khajura</option>
+		<option>Rimjhim Chowk</option>
+		<option>Raniyapur</option>
+		<option>Odarapur</option>
+		<option>Simalghari</option>
+		<option>Nepalgunj</option>
+		<option>Manakamana Chowk</option>
+	</select>
 
-### Support or Contact
+<label for="Contact No."><b> Contact No.</b></label>
+	<input type="text" name="Contact No." id=Contact No.>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+	<label for="Products Name"><b>Products Name</b>:</label>
+     <select id="Products Name">
+     	<option>Big Resham Mix Namkin per Sack Rs1750</option>
+		<option> Small Resham Mix Namkin per Sack Rs760</option>
+     </select>
+
+<label for="Questions"><b> Questions</b></label>
+<textarea id=Questions></textarea>
+<input type="submit" value="Send Message">
+</form>
+
+</div>
+
+
+
+
+</body>
+</html>
